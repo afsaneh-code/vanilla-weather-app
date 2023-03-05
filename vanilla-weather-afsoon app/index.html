@@ -15,15 +15,13 @@
         <div class="weather-app-wrapper">
         <div class="weather-app">
             <div class="overview">
-        <h1>
-           London
+        <h1 id="city">
         </h1>
         <ul>
             <li>
                 sunday 6:30
             </li>
-            <li>
-               mostly cloudy
+            <li id="description">
             </li>
         </ul>
     </div>
@@ -34,8 +32,8 @@
                 alt=" mostly cloudy"
                 class="float-left"
                 >
-                <div>
-                    <strong class="float-left">7</strong
+                <div class="float-left">
+                    <strong id="temperature"></strong
                     ><span class="units"> °C </span>
                   </div>
              </div>
@@ -46,7 +44,7 @@
         Precipitation: 10%
     </li>
     <li>
-        Humidity: 73%
+        Humidity: <span id="Humidity "></span> %
     </li>
     <li>
         Wind: 11 km/h

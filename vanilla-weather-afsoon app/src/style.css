@@ -13,6 +13,7 @@ ul{
 li{
     list-style: none;
     color: rgb(226, 43, 113);
+    text-transform: capitalize;
     font-size: 18px;
     font-weight: 110;
     line-height: 20px;
